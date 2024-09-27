@@ -35,6 +35,7 @@ public class Main {
         System.out.println(dune.getName());
         printDateOfBook();
         System.out.println(dune.getDate());
+        printAuthorOfBook();
         System.out.println(dune.getAuthor().authorName + dune.getAuthor().authorSurname);
 
     }
